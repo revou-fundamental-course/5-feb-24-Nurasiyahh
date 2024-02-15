@@ -1,0 +1,37 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Gaya untuk field input */
+.field {
+    margin-bottom: 30px; /* Menambahkan jarak antara setiap field input */
+}
+
+input[type="number"],
+input[type="text"] {
+    width: 80%; /* Menentukan lebar field input */
+    height: 40px; /* Menentukan tinggi field input */
+    padding: 10px; /* Menambahkan padding ke field input */
+    font-size: 16px; /* Menambahkan ukuran font */
+    box-sizing: border-box; /* Mengatur padding dan border menjadi bagian dari total lebar dan tinggi elemen */
+}
+
+button {
+    padding: 10px 20px; /* Mengatur padding tombol */
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* CSS untuk gaya teks dalam elemen H1 */
+h1 {
+    font-weight: normal; /* Mengatur teks menjadi tidak tebal */
+    font-size: 20px; /* Atur ukuran font sesuai kebutuhan */
+}
